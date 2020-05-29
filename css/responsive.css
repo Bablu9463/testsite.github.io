@@ -1,0 +1,314 @@
+@media screen and (max-width: 1200px) {
+  .slider-area .slide-bg img {
+    margin-bottom: 2px;
+  }
+}
+@media screen and (max-width: 1024px) {
+  .funziona-text {
+    margin-bottom: -70px;
+  }
+  .funziona-area .row p {
+    margin-top: 65px;
+  }
+  .slider-area .slide-bg img {
+    margin-bottom: 2px;
+  }
+  .registration-area .regi-row {
+    display: flex;
+    flex-direction: column;
+  }
+  .registration-area .regi-row .main-img img {
+    display: block;
+    width: 80%;
+    margin: auto;
+  }
+  .registration-area .regi-form {
+    border-radius: 18px;
+    width: 100%;
+    margin-top: 40px;
+  }
+  .contact-area form {
+    width: 70%;
+  }
+}
+
+@media screen and (max-width: 900px) {
+  h4 {
+    font-size: 26px;
+    font-weight: 600;
+    color: #000000;
+    margin-bottom: 25px;
+  }
+  .hero-bg {
+    background: inherit;
+    padding: 0px;
+  }
+  .hero-mobile-img {
+    display: block;
+    background: url(./css-asset/hero-illustration-phone.svg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 200px 0;
+  }
+  .hero-text .hero-title h1 {
+    font-size: 30px;
+  }
+  .nav-bar {
+    display: block;
+  }
+  .nav-bar ul {
+    display: none;
+    width: 60%;
+    margin: auto;
+    margin-top: 10px;
+    text-align: center;
+  }
+
+  .nav-bar .logo img {
+    display: block;
+    width: 55%;
+    margin: auto;
+  }
+  .main-menu ul li a {
+    margin-top: 10px;
+  }
+  .main-menu .primary-btn a {
+    width: 50%;
+    margin: auto;
+    margin-top: 10px;
+  }
+  .hero-area {
+    grid-template-columns: repeat(1, 1fr);
+  }
+
+  .hero-text {
+    text-align: center;
+  }
+  .hero-text .hero-title h1 {
+    font-size: 36px;
+  }
+
+  .hero-text .hero-subtitle h4 {
+    font-size: 18px;
+  }
+  .hero-btn {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .hero-btn .hero-btn-1 {
+    margin-right: 0px;
+    font-size: 13px;
+  }
+  .hero-btn .hero-btn-2 {
+    font-size: 13px;
+    display: block;
+    margin-top: 40px !important;
+    margin-bottom: 30px;
+  }
+  .counter-area .counter-row {
+    grid-template-columns: repeat(1, 1fr);
+    grid-gap: 40px;
+  }
+  .counter-area .counter-calender h3,
+  .counter-area .counter-users h3,
+  .counter-area .counter-chat h3 {
+    font-size: 36px;
+    margin-top: 18px;
+  }
+  .counter-area img {
+    width: 60px;
+  }
+  .counter-area .counter-calender p,
+  .counter-area .counter-users p,
+  .counter-area .counter-chat p {
+    font-size: 13px;
+  }
+  .hero-area .scroll-down {
+    display: none;
+  }
+  .counter-area .counter-calender,
+.counter-area .counter-users,
+.counter-area .counter-chat{
+  width: 316px;
+height: 230px;
+}
+  .slider-area{
+    background: linear-gradient(180deg, rgba(255,255,255,1) 0%, rgba(245,250,255,1) 100%);
+    margin-bottom: -115px;
+  }
+  .slider-area .slide-row {
+  grid-template-columns: repeat(1, 1fr);
+  grid-gap: 70px;
+}
+.slide-row .slide-content .slide-title{
+  font-size: 18px;
+  text-align: center;
+}
+.slide-row .slide-content .slide-title-bg,
+.slide-row .slide-content .slide2-title-bg,
+.slide-row .slide-content .slide3-title-bg{
+  width: 245px;
+height: 12px;
+margin: -14px auto;
+}
+.slide-row .slide-content p {
+  font-size: 13px;
+  text-align: center;
+}
+.slider-area .owl-theme .owl-controls {
+  
+  bottom: -80px;
+  right: 46%;
+}
+.slide-row .slide-img img {
+  margin: auto;
+}
+.review-area .review-title h3 {
+  font-size: 36px;
+  line-height: 46px;
+
+  
+}
+.review-area .review-title .review-title-bg {
+  width: 160px;
+  height: 12px;
+  position: relative;
+  margin: 0;
+  top: -65px;
+  left: -67px;
+}
+.review-even-text p {
+  font-size: 13px;
+}
+.review-even-text{
+  padding: 20px 15px;
+  border-radius: 33px 33px 33px 0px;
+}
+
+
+.review-odd-text p {
+  font-size: 13px;
+}
+.review-even-row {
+  display: grid;
+  grid-template-columns: 275px auto ;
+  justify-content: flex-start;
+  margin-bottom: 50px;
+}
+.review-odd-row {
+  display: grid;
+  grid-template-columns: auto 275px;
+  justify-content: end;
+  margin-bottom: 50px;
+}
+.review-area .user-name h4 {
+  font-size: 13px;
+  line-height: 0;
+  letter-spacing: -0.03em;
+  color: #565656;
+}
+.review-area .user-name p {
+  opacity: 0.7;
+  font-size: 10px;
+  line-height: 0;
+}
+.review-area .user-avatar-even {
+  width: 36px;
+  height: 36px;
+}
+.review-area .user-avatar-odd {
+  width: 36px;
+  height: 36px;
+}
+.review-area .review-btn{
+  margin-top: 130px;
+}
+.review-area .review-btn a{
+  font-size: 13px;
+  font-weight: 600;
+}
+
+.bottom-area .bottom-row {
+  display: grid;
+  grid-template-columns: repeat(1, 1fr);
+  justify-content: center;
+  align-items: center;
+}
+.bottom-area .copyright ul{
+  justify-content: center;
+  
+}
+.bottom-area .copyright ul li {
+  padding-right: 30px;
+}
+.bottom-area .copyright ul li h5{
+  font-size: 13px;
+}
+.bottom-area .copyright ul li p {
+  font-size: 13px;
+  
+}
+.bottom-area .copyright ul .bottom-link {
+ display: flex;
+ flex-direction: column;
+ margin-bottom: 50px;
+
+}
+.bottom-area .copyright ul .bottom-link a{
+  font-size: 13px;
+}
+@media screen and (max-width: 600px) {
+  .hero-img #heroAnim {
+    display: block;
+    width: 80%;
+    margin: auto;
+  }
+  .funziona-area .row #qrCode {
+    margin-left: 130px;
+  }
+  .pricing-area .container {
+    width: 80%;
+  }
+}
+@media screen and (max-width: 480px) {
+  .hero-area .hero-subtitle h4 {
+    font-size: 22px;
+  }
+  .slider-area .review-area {
+    padding: 0;
+    padding: 30px;
+  }
+  .slider-area .review-area p {
+    width: 100%;
+  }
+  .slider-area .review-area img {
+    display: block;
+    width: 80%;
+    margin: auto;
+  }
+  .slider-area .client-area img {
+    width: 60px;
+    height: 60px;
+  }
+  .slider-area .client-area {
+    display: block;
+    align-items: center;
+    text-align: center;
+  }
+
+  .funziona-area .row #qrCode {
+    margin-left: 100px;
+  }
+  .fidyme a,
+  .fidypro a {
+    display: block;
+    width: 100%;
+  }
+}
+@media screen and (max-width: 375px) {
+  .funziona-area .row #qrCode {
+    margin-left: 80px;
+  }
+}
